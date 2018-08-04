@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Desafio 2</title>
+        <link rel="stylesheet" href="root\css.css" />
+        <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    </head>    
+    <body>
+        <header>               
+            <nav>         
+                <a href="index.html">Quienes Somos</a> |
+                <a href="discografia.html">Discografia</a> |
+                <a href="contrataciones.html">Contrataciones</a> |     
+            </nav>
+        </header>
+        <div>
+            <h1>Contrataciones</h1>
+            <form>
+                <fieldset>
+                    <legend>Datos</legend>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" placeholder="Ingrese su Nombre">
+                        <label for="Apellido">Apellido</label>
+                        <input type="text" name="Apellido" placeholder="Ingrese su Apellido">
+                    </div>
+                    <div>
+                        <label for="telefono">Telefono</label>
+                        <input type="text" name="telefono" placeholder="Ingrese su telefono">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="Ingrese su email">
+                        <label for="pais">Pais</label>
+                        <select name="pais">                        
+                            <option>Argentina</option>
+                            <option>Otro</option>
+                        </select>
+                    </div>                        
+                </fieldset>
+                <fieldset>
+                        <legend>Motivo</legend>
+                            <div>                        
+                                <label for="motivo" id="motivo">Motivo</label>
+                                <select name="motivo">
+                                    <option value="fiesta">Fiesta</option>
+                                    <option value="bautismo">Bautismo</option>
+                                    <option value="casamiento">Casamiento</option>
+                                    <option value="eventoempresarial">Evento Empresarial</option>
+                                </select>
+                            </div>
+                        <div>
+                            <label for="comentario">Comentarios</label>
+                            <textarea name="" id="" cols="180" rows="10"></textarea>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="acepto" id="acepto"><label for="acepto">Acepto los Terminos y Condiciones</label>                           
+                        </div>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Borrar formulario</button>
+                </fieldset>
+            </form>
+        </div>        
+        <footer>            
+                <p>&#174; 2017</p>                     
+        </footer>
+    </body>
+</html>   

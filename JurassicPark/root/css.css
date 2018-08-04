@@ -1,0 +1,12 @@
+.nav{    
+    border-bottom-width: 2px;
+    border-bottom: dotted;
+    border-bottom-color: lightblue;
+    margin-bottom: 2%;
+}
+ul{
+    list-style: none;
+}
+#imglogo{   
+    width: 15%;
+}

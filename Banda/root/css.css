@@ -1,0 +1,50 @@
+html{
+    background:black;
+    color: white;
+    font-family: 'Gaegu', cursive;
+}
+nav {
+    position: sticky;
+    text-align: center;      
+}
+nav a, footer a {
+    color:lightskyblue;
+    text-decoration: none;    
+}
+nav a:hover{
+    color: rgb(255, 131, 0);
+}
+.contenedor{    
+    text-align: center;
+    margin-bottom: 3%;
+}
+.contenedor ul {
+    list-style-type: none;
+}
+.contenedor img {
+    width: 50%;
+}
+footer{
+    border-top: 2px solid royalblue;
+    text-align: center;
+    padding: 1em;
+}
+.mov > h1 {
+    width: 100%;
+    animation-name: movimiento;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 9s;
+    animation-delay: 0s;
+}
+@keyframes movimiento{
+    0%{ width: 0%; }
+    25%{ width: 25%; }
+    50%{ width: 50%;
+    background-color: rgba(0, 189, 219, 1);}
+    75%{ width: 70%;}
+    100%{ width: 100%;}
+}
+.discos > table {
+    margin: auto;
+}

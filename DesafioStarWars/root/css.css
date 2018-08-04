@@ -1,0 +1,84 @@
+body{
+   background-image: url("back2.jpeg");
+   background-size: 100%;
+   font-family: 'Russo One', sans-serif; 
+}
+.contenedor{
+    background-color: white;
+    width: 85%;
+    margin: auto;
+    padding: 1%;
+}
+#divsup{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;  
+    text-align: right;
+    background-image: url("back1.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    padding: 35px 10%;
+    background-position-x: 87%;
+    margin-bottom: 3%;
+}
+#divsup p{
+    display: inline-block;
+    margin: 0;
+}
+#jedi{
+    color: red;         
+}
+section{
+    overflow: auto;
+}
+section div{
+    float: left;
+    width: 30%;
+    line-height: 25px;
+    border: 2px;
+    border-right: dotted;
+    padding-left: 1%;
+    padding-right: 1%;
+    }
+#personajes{
+    border-color: red;
+}
+#casting{
+    border-color: blue;
+}
+#rodaje{
+    border: none;
+}
+#titulopersonajes{
+    background-color: red;
+    color: white;
+    margin: 0;
+    padding: 4%;
+}
+#titulocasting{
+    background-color:blue;
+    color: white;
+    margin: 0;
+    padding: 4%;
+}
+#titulorodaje{
+    background-color: green;
+    color: white;
+    margin: 0;
+    padding: 4%;
+}
+/* #mark{
+    position: relative;
+} */
+ul{
+    list-style: none;
+}
+#mark > ul{
+    visibility: hidden;
+    position: absolute;
+    background-color: black;
+    color: white;
+}
+#mark:hover > ul
+{    visibility: visible; 
+}
