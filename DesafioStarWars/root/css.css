@@ -23,6 +23,18 @@ body {
 }
 .principal header p {
     margin: 0;
+    animation-name: movimiento;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 9s;
+    animation-delay: 0s;    
+}
+@keyframes movimiento{
+    0%{ width:  40%; }
+    25%{ width: 55%; }
+    50%{ width: 75%;}
+    75%{ width: 95%;}
+    100%{ width: 100%;}
 }
 .principal header p > span {
     color: red;         
