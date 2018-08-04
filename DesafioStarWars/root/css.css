@@ -1,17 +1,17 @@
-body{
+body {
    background-image: url("back2.jpeg");
    background-size: 100%;
    font-family: 'Russo One', sans-serif; 
 }
-.contenedor{
+.principal {
     background-color: white;
     width: 85%;
     margin: auto;
     padding: 1%;
 }
-#divsup{
+.principal header {
     color: white;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: bold;  
     text-align: right;
     background-image: url("back1.jpg");
@@ -21,16 +21,16 @@ body{
     background-position-x: 87%;
     margin-bottom: 3%;
 }
-#divsup p{
-    display: inline-block;
+.principal header p {
     margin: 0;
 }
-#jedi{
+.principal header p > span {
     color: red;         
 }
-section{
+/* section{
     overflow: auto;
 }
+
 section div{
     float: left;
     width: 30%;
@@ -39,41 +39,45 @@ section div{
     border-right: dotted;
     padding-left: 1%;
     padding-right: 1%;
-    }
-#personajes{
-    border-color: red;
+    } */
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+
+}
+.contenedor > article{
+    width: 33%;
+}
+.contenedor article h3 {
+    color: white;
+    margin: 0;
+    padding: 4%;
+}
+
+/* subtitulos y bordes*/
+#personajes{   
+    border-right: dotted red;
 }
 #casting{
-    border-color: blue;
+    border-right: dotted blue;
 }
 #rodaje{
     border: none;
 }
-#titulopersonajes{
+#personajes > h3 {
     background-color: red;
-    color: white;
-    margin: 0;
-    padding: 4%;
 }
-#titulocasting{
+#casting > h3 {
     background-color:blue;
-    color: white;
-    margin: 0;
-    padding: 4%;
 }
-#titulorodaje{
-    background-color: green;
-    color: white;
-    margin: 0;
-    padding: 4%;
+#rodaje > h3{
+    background-color: green;  
 }
-/* #mark{
-    position: relative;
-} */
 ul{
     list-style: none;
+    padding: 0;
 }
-#mark > ul{
+/* #mark > ul{
     visibility: hidden;
     position: absolute;
     background-color: black;
@@ -81,4 +85,4 @@ ul{
 }
 #mark:hover > ul
 {    visibility: visible; 
-}
+} */
