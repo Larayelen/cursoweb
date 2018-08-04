@@ -1,0 +1,14 @@
+.grid {
+    display: grid;   
+    grid-template-columns: auto auto auto auto;
+    grid-template-areas:
+    "areaA areaA areaB areaB"
+    "areaC areaD areaD areaD"
+    "areaE areaE areaE areaE";
+    background-color:palevioletred;
+  }
+  #a { grid-area:areaA; background:blue }
+  #b { grid-area:areaB; background:red }
+  #c { grid-area:areaC; background:green }
+  #d { grid-area:areaD; background:orange }
+  #e { grid-area:areaE; background:pink }
