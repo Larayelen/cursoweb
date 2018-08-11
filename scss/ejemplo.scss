@@ -1,0 +1,17 @@
+@import "variables";
+
+$colorDiv: yellow;
+
+.contenedor{
+    div{
+        width: 50px;
+        color: red;
+        h1{
+            color: $varColor;;
+            font-size: 30px;
+        }
+        a{
+            
+        }
+    }
+}
