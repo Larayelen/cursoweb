@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixin";
 
 $colorDiv: yellow;
 
@@ -11,7 +12,7 @@ $colorDiv: yellow;
             font-size: 30px;
         }
         a{
-            
+            @include ejmixin(red,5px,bold);
         }
     }
 }

@@ -4,5 +4,9 @@
   .contenedor div h1 {
     color: pink;
     font-size: 30px; }
+  .contenedor div a {
+    color: red;
+    font-size: 5px;
+    font-style: bold; }
 
 /*# sourceMappingURL=ejemplo.css.map */

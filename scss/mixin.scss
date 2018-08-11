@@ -1,0 +1,5 @@
+@mixin ejmixin($color, $size, $type){
+    color: $color;
+    font-size: $size;
+    font-style: $type;
+}

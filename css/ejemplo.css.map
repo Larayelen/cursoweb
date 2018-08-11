@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAKI,eAAG;EACC,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,GAAG;EACV,kBAAE;IACE,KAAK,ECTN,IAAI;IDUH,SAAS,EAAE,IAAI",
-"sources": ["../scss/ejemplo.scss","../scss/variables.scss"],
+"mappings": "AAMI,eAAG;EACC,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,GAAG;EACV,kBAAE;IACE,KAAK,ECVN,IAAI;IDWH,SAAS,EAAE,IAAI;EAEnB,iBAAC;IEZL,KAAK,EFaoB,GAAG;IEZ5B,SAAS,EFYoB,GAAG;IEXhC,UAAU,EFWuB,IAAI",
+"sources": ["../scss/ejemplo.scss","../scss/variables.scss","../scss/mixin.scss"],
 "names": [],
 "file": "ejemplo.css"
 }
